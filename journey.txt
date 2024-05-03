@@ -65,3 +65,82 @@ $ npx tailwindcss init -p
 Created Tailwind CSS config file: tailwind.config.js
 Created PostCSS config file: postcss.config.js
 
+---------------------------------------------------
+************Installing Icons***********************
+---------------------------------------------------
+PS D:\Projects\react-jobs> npm i react-icons
+
+added 1 package, and audited 363 packages in 22s
+
+126 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+
+---------------------------------------------------
+************Installing React Router****************
+---------------------------------------------------
+PS D:\Projects\react-jobs> npm i react-router-dom
+
+added 3 packages, and audited 366 packages in 4s
+
+126 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+---------------------------------------------------
+************Installing Json-Server****************
+---------------------------------------------------
+ D:\Projects\react-jobs> npm i -D json-server
+
+added 39 packages, and audited 405 packages in 42s
+
+138 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+---------------------------------------------------
+package.json
+{
+  .
+  .
+ "server": "json-server --watch src/jobs.json --port 8000"
+ }
+
+
+ PS D:\Projects\react-jobs> npm run server
+
+> react-jobs@0.0.0 server
+> json-server --watch src/jobs.json --port 8000
+
+--watch/-w can be omitted, JSON Server 1+ watches for file changes by default
+JSON Server started on PORT :8000
+Press CTRL-C to stop
+Watching src/jobs.json...        
+
+♡⸜(˶˃ ᵕ ˂˶)⸝♡
+
+Index:
+http://localhost:8000/
+
+Static files:
+Serving ./public directory if it exists
+
+Endpoints:
+http://localhost:8000/jobs
+
+-----------------------------------------
+
+------------------------------------------
+
+PS D:\Projects\react-jobs> npm i react-spinners
+
+added 1 package, and audited 406 packages in 5s
+
+138 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
