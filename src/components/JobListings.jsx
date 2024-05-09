@@ -1,12 +1,9 @@
 import React from 'react';
-// import jobs from '../jobs.json';
 import { useState, useEffect } from 'react';
 import JobListing from './JobListing';
 import Spinner from './Spinner';
 
 const JobListings = ({isHome = false}) => {
-    // console.log(jobs);
-    // const jobListings = isHome ? jobs.slice(0,3) : jobs;
     const [jobs, setJobs]= useState([]);
     const [loading, setLoading] = useState(true);
     useEffect (() => {
@@ -21,14 +18,11 @@ const JobListings = ({isHome = false}) => {
         }finally{
           setLoading(false);
         }
-      }
-
+      };
       fetchJobs();
     },[]);
 
   return (
-    <>
-    {/* <!-- Browse Jobs --> */}
     <section className="bg-blue-50 px-4 py-10">
       <div className="container-xl lg:container m-auto">
         <h2 className="text-3xl font-bold text-indigo-500 mb-6 text-center">
@@ -46,7 +40,6 @@ const JobListings = ({isHome = false}) => {
         )}        
         </div>
     </section>
-    </>
   );
 };
 
